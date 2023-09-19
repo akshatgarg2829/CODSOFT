@@ -135,7 +135,7 @@ class _ConverterPageState extends State<ConverterPage> {
               onPressed: () {
                 swapUnits();
               },
-              child: Text('swap Units'),
+              child: Text('Swap Units'),
             ),
             SizedBox(height: 20),
             Text('Result: $outputTemperature $selectedOutputUnit'),
